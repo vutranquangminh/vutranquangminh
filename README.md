@@ -5,16 +5,55 @@
 
 ## 💫 About Me
 
-- 🎓 I'm currently studying at **University of Greenwich**  
-- 🚀 Exploring the world of **Next.js**  
-- ⚽ A huge **football fan** — always up for match analysis or tactical debates  
+I’m a **final-year Information Technology student at the University of Greenwich** with a strong foundation in full-stack development—spanning both frontend and backend technologies.
+
+- 💻 Skilled in **JavaScript**, **Python**, and **SQL**  
+- ⚙️ Hands-on experience with **React**, **Vue**, **Node.js**, **Django**, **MySQL**, and **MongoDB**  
+- 🎨 Confident in **UI/UX design**, **API development**, and using tools like **Git**, **Docker**, and **Postman**  
+- 🤝 Strong problem-solver who thrives in **collaborative team environments**  
+- 🚀 Currently seeking an **internship in frontend or backend development** to sharpen my skills and gain industry experience  
+
+I’m passionate about building clean, efficient, and user-centered digital solutions—and always excited to learn something new!
 
 ---
 
-## 🌐 Connect with Me
+## 🏅 Certifications
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/vutranquangminh)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:19112004vutranquangminh@gmail.com)
+- **Harvard University – CS50’s Introduction to Computer Science**
+- **Harvard University – CS50’s Introduction to Programming with Python**
+- **Harvard University – CS50’s Web Programming with Python and JavaScript**
+- **Scrimba – The Frontend Developer Career Path**
+
+---
+
+## 📞 Contact
+
+- 📱 (+84) 086 619 1104  
+- 📍 District 7, Ho Chi Minh City  
+- 📧 vutranquangminh.dev@gmail.com  
+- 💼 [LinkedIn](https://linkedin.com/in/vutranquangminh)
+
+---
+
+## 🎓 Education
+
+**University of Greenwich**  
+BSc (Hons) in Computing  
+GPA: 3.55 • 2022 – 2026
+
+---
+
+## 🏆 Achievements
+
+- **Top Student in Term Spring 2025**  
+- **IJCA Publication Research Article**
+
+---
+
+## 🌐 Languages
+
+- **Vietnamese** – Native Speaker  
+- **English** – B2 Level (VSTEP B2 Certificate)
 
 ---
 
@@ -77,9 +116,3 @@
 ![Top Repos](https://github-contributor-stats.vercel.app/api?username=vutranquangminh&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-
-<p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=vutranquangminh&icon=0&color=0" alt="Profile Views" />
-</p>
-
-<!-- Designed with 💙 by Minh | Template from GPRM -->
