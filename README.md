@@ -1,5 +1,5 @@
-<h1 align="center">Hi there 👋, I'm Quang Minh</h1>
-<h3 align="center">🎓 CS Student | ⚽ Football Tactician | 💻 Full-Stack Dev in Progress</h3>
+<h1 align="center">Hi there 👋, I'm Vũ Trần Quang Minh</h1>
+<h3 align="center">🎓 Final Year Computing Student | ⚽ Member of Greenwich Football Club | 💻 Full-Stack Dev in Progress</h3>
 
 ---
 
@@ -29,7 +29,7 @@ I’m passionate about building clean, efficient, and user-centered digital solu
 ## 📞 Contact
 
 - 📱 (+84) 086 619 1104  
-- 📍 District 7, Ho Chi Minh City  
+- 📍 District 7, Ho Chi Minh City, Vietnam  
 - 📧 vutranquangminh.dev@gmail.com  
 - 💼 [LinkedIn](https://linkedin.com/in/vutranquangminh)
 
