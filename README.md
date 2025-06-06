@@ -1,118 +1,77 @@
-<h1 align="center">Hi there 👋, I'm Vũ Trần Quang Minh</h1>
-<h3 align="center">🎓 Final Year Computing Student | ⚽ Member of Greenwich Football Club | 💻 Full-Stack Dev in Progress</h3>
+<h1 align="center">Hi there 👋, I'm Vũ Trần Quang Minh (William)</h1>
+<h3 align="center">💻 Front-End Developer | 🚀 Future Full-Stack Engineer | 🎓 Final-Year BSc Computing Student</h3>
 
 ---
 
 ## 💫 About Me
 
-I’m a **final-year Information Technology student at the University of Greenwich** with a strong foundation in full-stack development—spanning both frontend and backend technologies.
+I'm **William (Vũ Trần Quang Minh)** – a passionate front-end developer with a growing skillset in back-end technologies, currently on my journey to become a **full-stack developer**.
 
-- 💻 Skilled in **JavaScript**, **Python**, and **SQL**  
-- ⚙️ Hands-on experience with **React**, **Vue**, **Node.js**, **Django**, **MySQL**, and **MongoDB**  
-- 🎨 Confident in **UI/UX design**, **API development**, and using tools like **Git**, **Docker**, and **Postman**  
-- 🤝 Strong problem-solver who thrives in **collaborative team environments**  
-- 🚀 Currently seeking an **internship in frontend or backend development** to sharpen my skills and gain industry experience  
-
-I’m passionate about building clean, efficient, and user-centered digital solutions—and always excited to learn something new!
+- 🌱 Final-year BSc Computing student at **University of Greenwich**
+- 💡 Strong in front-end frameworks like **React**, **Vue**, **Next.js**
+- ⚙️ Learning and practicing **back-end development** with **Node.js**, **Django**, and **FastAPI**
+- 💬 I enjoy building user-friendly UIs and robust APIs
+- 🤝 Open to internship opportunities in front-end / back-end roles
 
 ---
 
-## 🏅 Certifications
+## 🧠 Tech Stack
 
-- **Harvard University – CS50’s Introduction to Computer Science**
-- **Harvard University – CS50’s Introduction to Programming with Python**
-- **Harvard University – CS50’s Web Programming with Python and JavaScript**
-- **Scrimba – The Frontend Developer Career Path**
+**Frontend:**  
+React · Vue · Next.js · HTML5 · CSS3 · Tailwind CSS · JavaScript · TypeScript
 
----
+**Backend:**  
+Node.js · Django · FastAPI · Flask · .NET
 
-## 📞 Contact
+**Database:**  
+MongoDB · MySQL · SQLite · SQL Server
 
-- 📱 (+84) 086 619 1104  
-- 📍 District 7, Ho Chi Minh City, Vietnam  
-- 📧 vutranquangminh.dev@gmail.com  
-- 💼 [LinkedIn](https://linkedin.com/in/vutranquangminh)
+**Tools:**  
+Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
 
 ---
 
 ## 🎓 Education
 
 **University of Greenwich**  
-BSc (Hons) in Computing  
-GPA: 3.55 • 2022 – 2026
+📘 BSc (Hons) Computing | 2022 – 2026  
+📍 Ho Chi Minh City, Vietnam  
+⭐ GPA: 3.55 | Top Student – Spring 2025
 
 ---
 
-## 🏆 Achievements
+## 🚀 Featured Projects
 
-- **Top Student in Term Spring 2025**  
-- **IJCA Publication Research Article**
-
----
-
-## 🌐 Languages
-
-- **Vietnamese** – Native Speaker  
-- **English** – B2 Level (VSTEP B2 Certificate)
+- [📚 TruyenHay](https://truyenhaynhe.com) – Online reading platform with coin system & user uploads  
+- [📓 Student Diary](https://github.com/vutranquangminh/student-diary) – Flask app for journaling, tasks & weather  
+- [💬 Discord UI Clone](https://github.com/vutranquangminh/discord-ui-clone) – Static UI using Next.js & Tailwind CSS
 
 ---
 
-## 🧰 Tech Stack
+## 🏅 Certifications
 
-**Languages & Frameworks**  
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![HTML5](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+- CS50’s Introduction to Computer Science – Harvard  
+- CS50’s Web Programming with Python & JS – Harvard  
+- Frontend Developer Career Path – Scrimba
 
-**Web & App Development**  
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+---
 
-**Backend & APIs**  
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Django REST](https://img.shields.io/badge/Django%20REST-ff1709?style=for-the-badge&logo=django&logoColor=white)
+## 📞 Contact
 
-**Databases**  
-![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405e?style=for-the-badge&logo=sqlite&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-
-**Tools & Platforms**  
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-117AC9?style=for-the-badge&logo=wordpress&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+- 📧 Email: [vutranquangminh.dev@gmail.com](mailto:vutranquangminh.dev@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/vutranquangminh](https://linkedin.com/in/vutranquangminh)  
+- 📱 (+84) 086 619 1104  
+- 📍 Ho Chi Minh City, Vietnam
 
 ---
 
 ## 📊 GitHub Stats
 
-| ![Minh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vutranquangminh&theme=dark&show_icons=true&hide_border=false&count_private=true) | ![GitHub Streak](https://streak-stats.demolab.com/?user=vutranquangminh&theme=dark&hide_border=false) |
+| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vutranquangminh&theme=dark&show_icons=true&count_private=true) | ![GitHub Streak](https://streak-stats.demolab.com/?user=vutranquangminh&theme=dark) |
 |--|--|
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vutranquangminh&theme=dark&layout=compact&hide_border=false)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vutranquangminh&layout=compact&theme=dark)
 
 ---
 
-## 🧠 Dev Quote of the Day
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-
-## 🔝 Top Repositories
-
-![Top Repos](https://github-contributor-stats.vercel.app/api?username=vutranquangminh&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
----
+> “The best way to learn is to build.” – Let’s connect and build something meaningful together!
