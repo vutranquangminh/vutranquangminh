@@ -40,6 +40,20 @@ Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
 
 ---
 
+## 🏆 Achievements
+
+- **Top Student in Term Spring 2025**  
+- **IJCA Publication Research Article**
+
+---
+
+## 🌐 Languages
+
+- **Vietnamese** – Native Speaker  
+- **English** – B2 Level (VSTEP B2 Certificate)
+
+---
+
 ## 🚀 Featured Projects
 
 - [📚 TruyenHay](https://truyenhaynhe.com) – Online reading platform with coin system & user uploads  
@@ -50,9 +64,10 @@ Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
 
 ## 🏅 Certifications
 
-- CS50’s Introduction to Computer Science – Harvard  
-- CS50’s Web Programming with Python & JS – Harvard  
-- Frontend Developer Career Path – Scrimba
+- CS50’s Introduction to Computer Science – Harvard
+- CS50’s Introduction to Programming with Python - Harvard  
+- CS50’s Web Programming with Python and JavaScript – Harvard  
+- The Frontend Developer Career Path – Scrimba
 
 ---
 
