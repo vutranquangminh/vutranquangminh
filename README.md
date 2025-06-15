@@ -64,10 +64,11 @@ Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
 
 ## 🏅 Certifications
 
-- CS50’s Introduction to Computer Science – Harvard
-- CS50’s Introduction to Programming with Python - Harvard  
-- CS50’s Web Programming with Python and JavaScript – Harvard  
-- The Frontend Developer Career Path – Scrimba
+- [CS50’s Introduction to Programming with Scratch](certificates/harvard-university-x-edX/cs50-introduction-to-programming-with-scratch/cs50-introduction-to-programming-with-scratch-certificate.pdf)  
+- [CS50’s Introduction to Programming with Python](certificates/harvard-university-x-edX/cs50-introduction-to-programming-with-python/cs50-python-certificate.pdf) 
+- [CS50’s Introduction to Computer Science](certificates/harvard-university-x-edX/cs50-introduction-to-computer-science/cs50-introduction-to-computer-science-certificate.pdf)
+- [CS50’s Web Programming with Python and JavaScript](certificates/harvard-university-x-edX/cs50-web-programming-with-python-and-javascript/cs50-web-certificate.pdf)
+- [The Frontend Developer Career Path](certificates/the-frontend-developer-career-path/scrimba-frontend-certificate.pdf)
 
 ---
 
@@ -90,3 +91,5 @@ Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
 ---
 
 > “The best way to learn is to build.” – Let’s connect and build something meaningful together!
+
+---
