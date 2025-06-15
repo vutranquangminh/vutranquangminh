@@ -64,11 +64,11 @@ Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
 
 ## 🏅 Certifications
 
-- [CS50’s Introduction to Programming with Scratch](certificates/harvard-university-x-edX/cs50-introduction-to-programming-with-scratch/cs50-introduction-to-programming-with-scratch-certificate.pdf)  
-- [CS50’s Introduction to Programming with Python](certificates/harvard-university-x-edX/cs50-introduction-to-programming-with-python/cs50-python-certificate.pdf) 
-- [CS50’s Introduction to Computer Science](certificates/harvard-university-x-edX/cs50-introduction-to-computer-science/cs50-introduction-to-computer-science-certificate.pdf)
-- [CS50’s Web Programming with Python and JavaScript](certificates/harvard-university-x-edX/cs50-web-programming-with-python-and-javascript/cs50-web-certificate.pdf)
-- [The Frontend Developer Career Path](certificates/the-frontend-developer-career-path/scrimba-frontend-certificate.pdf)
+- [CS50’s Introduction to Programming with Scratch](https://github.com/vutranquangminh/certificates)  
+- [CS50’s Introduction to Programming with Python](https://github.com/vutranquangminh/certificates)  
+- [CS50’s Introduction to Computer Science](https://github.com/vutranquangminh/certificates)  
+- [CS50’s Web Programming with Python and JavaScript](https://github.com/vutranquangminh/certificates)  
+- [The Frontend Developer Career Path](https://github.com/vutranquangminh/certificates)
 
 ---
 
