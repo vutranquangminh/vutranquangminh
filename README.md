@@ -1,18 +1,94 @@
-# 💫 About Me:
-<br>I'm **Vũ Trần Quang Minh (William)** – a passionate front-end developer with a growing skillset in back-end technologies, currently on my journey to become a **full-stack developer**.<br><br>- 🌱 Final-year BSc Computing student at **University of Greenwich**<br>- 💡 Strong in front-end frameworks like **React**, **Vue**, **Next.js**<br>- ⚙️ Learning and practicing **back-end development** with **Node.js**, **Django**, and **FastAPI**<br>- 💬 I enjoy building user-friendly UIs and robust APIs<br>- 🤝 Open to internship opportunities in front-end / back-end roles
+<h1 align="center">Hi there 👋, I'm Vũ Trần Quang Minh (William)</h1>
+<h3 align="center">💻 Front-End Developer | 🚀 Future Full-Stack Engineer | 🎓 Final-Year BSc Computing Student</h3>
 
+---
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/vutranquangminh) 
+## 💫 About Me
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-# 📊 GitHub Stats:
+I'm **Vũ Trần Quang Minh (William)** – a passionate front-end developer with a growing skillset in back-end technologies, currently on my journey to become a **full-stack developer**.
+
+- 🌱 Final-year BSc Computing student at **University of Greenwich**
+- 💡 Strong in front-end frameworks like **React**, **Vue**, **Next.js**
+- ⚙️ Learning and practicing **back-end development** with **Node.js**, **Django**, and **FastAPI**
+- 💬 I enjoy building user-friendly UIs and robust APIs
+- 🤝 Open to internship opportunities in front-end / back-end roles
+
+---
+
+## 🧠 Tech Stack
+
+**Frontend:**  
+React · Vue · Next.js · HTML5 · CSS3 · Tailwind CSS · JavaScript · TypeScript
+
+**Backend:**  
+Node.js · Django · FastAPI · Flask · .NET
+
+**Database:**  
+MongoDB · MySQL · SQLite · SQL Server
+
+**Tools:**  
+Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
+
+---
+
+## 🎓 Education
+
+**University of Greenwich**  
+📘 BSc (Hons) Computing | 2022 – 2026  
+📍 Ho Chi Minh City, Vietnam  
+⭐ GPA: 3.55 | Top Student – Spring 2025
+
+---
+
+## 🏆 Achievements
+
+- **Top Student in Term Spring 2025**  
+- **IJCA Publication Research Article**
+
+---
+
+## 🌐 Languages
+
+- **Vietnamese** – Native Speaker  
+- **English** – B2 Level (VSTEP B2 Certificate)
+
+---
+
+## 🚀 Featured Projects
+
+- [📚 TruyenHay](https://truyenhaynhe.com) – Online reading platform with coin system & user uploads  
+- [📓 Student Diary](https://github.com/vutranquangminh/student-diary) – Flask app for journaling, tasks & weather  
+- [💬 Discord UI Clone](https://github.com/vutranquangminh/discord-ui-clone) – Static UI using Next.js & Tailwind CSS
+
+---
+
+## 🏅 Certifications
+
+- [CS50’s Introduction to Programming with Scratch](https://github.com/vutranquangminh/certificates)  
+- [CS50’s Introduction to Programming with Python](https://github.com/vutranquangminh/certificates)  
+- [CS50’s Introduction to Computer Science](https://github.com/vutranquangminh/certificates)  
+- [CS50’s Web Programming with Python and JavaScript](https://github.com/vutranquangminh/certificates)  
+- [The Frontend Developer Career Path](https://github.com/vutranquangminh/certificates)
+
+---
+
+## 📞 Contact
+
+- 📧 Email: [vutranquangminh.dev@gmail.com](mailto:vutranquangminh.dev@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/vutranquangminh](https://linkedin.com/in/vutranquangminh)  
+- 📱 (+84) 086 619 1104  
+- 📍 Ho Chi Minh City, Vietnam
+
+---
+
+## 📊 GitHub Stats
+
 ![](https://github-readme-stats.vercel.app/api?username=vutranquangminh&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=vutranquangminh&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=vutranquangminh&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=vutranquangminh&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+> “The best way to learn is to build.” – Let’s connect and build something meaningful together!
+
+---
