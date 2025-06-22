@@ -13,6 +13,7 @@ I'm **Vũ Trần Quang Minh (William)** – a passionate front-end developer wit
 - ⚙️ Learning and practicing **back-end development** with **Node.js**, **Django**, and **FastAPI**
 - 💬 I enjoy building user-friendly UIs and robust APIs
 - 🤝 Open to internship opportunities in front-end / back-end roles
+- 🔥 **Founder of Meowmentum Education** (Review Soon)
 
 ---
 
