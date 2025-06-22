@@ -22,10 +22,10 @@ I'm **Vũ Trần Quang Minh (William)** – a passionate front-end developer wit
 React · Vue · Next.js · HTML5 · CSS3 · Tailwind CSS · JavaScript · TypeScript
 
 **Backend:**  
-Node.js · Django · FastAPI · Flask · .NET
+Flask · Django · FastAPI · Node.js · Express.js · Firebase
 
 **Database:**  
-MongoDB · MySQL · SQLite · SQL Server
+MongoDB · MySQL · SQLite · SQL Server · Firestore (Firebase)
 
 **Tools:**  
 Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
