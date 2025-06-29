@@ -20,7 +20,7 @@ I'm **Vũ Trần Quang Minh (William)** – a passionate front-end developer wit
 ## 🧠 Tech Stack
 
 **Frontend:**  
-HTML5 · CSS3 · JavaScript · TypeScript · Bootstrap · Tailwind CSS · React · Vue · Next.js
+HTML5 · CSS3 · JavaScript · TypeScript · Bootstrap · Tailwind CSS · Vue · React · React Native · Next.js
 
 **Backend:**  
 Flask · Django · FastAPI · Node.js · Express.js · Next.js · Firebase
@@ -69,6 +69,7 @@ Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
 - [The AI Engineer Path](https://github.com/vutranquangminh/certificates)
 - [The Fullstack Developer Path](https://github.com/vutranquangminh/certificates)
 - [The Frontend Developer Career Path](https://github.com/vutranquangminh/certificates)
+- [Meta React Native Specialization](https://github.com/vutranquangminh/certificates)
 - [CS50’s Introduction to Computer Science](https://github.com/vutranquangminh/certificates)  
 - [CS50’s Introduction to Programming with Python](https://github.com/vutranquangminh/certificates)  
 - [CS50’s Introduction to Programming with Scratch](https://github.com/vutranquangminh/certificates)  
