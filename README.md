@@ -1,5 +1,5 @@
 ![](https://github.com/Yasmixe/Yasmixe/blob/main/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
-<h1 align="center">Hi there 👋, I'm Vũ Trần Quang Minh (William)</h1>
+<h1 align="center">Hi there 👋, I'm Vũ Trần Quang Minh - William</h1>
 <h3 align="center">💻 Front-End Developer | 🚀 Future Full-Stack Engineer | 🎓 Final-Year BSc Computing Student</h3>
 
 ---
