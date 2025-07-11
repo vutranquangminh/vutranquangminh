@@ -6,7 +6,7 @@
 
 ## 💫 About Me
 
-I'm **Vũ Trần Quang Minh - William ** – a passionate front-end developer with a growing skillset in back-end technologies, currently on my journey to become a **full-stack developer**.
+I'm **Vũ Trần Quang Minh - William** – a passionate front-end developer with a growing skillset in back-end technologies, currently on my journey to become a **full-stack developer**.
 
 - 🌱 Final-year BSc Computing student at **University of Greenwich**
 - 💡 Strong in front-end frameworks like **React**, **Vue**, **Next.js**
