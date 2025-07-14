@@ -35,9 +35,9 @@ Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
 
 ## 🎓 Education
 
-**University of Greenwich**  
+**University of Greenwich alliance with FPT Education**  
 📘 BSc (Hons) Computing | 2022 – 2026  
-📍 Ho Chi Minh City, Vietnam  
+📍 Campus Ho Chi Minh City, Vietnam  
 ⭐ GPA: 3.55 | Top Student – Spring 2025
 
 ---
