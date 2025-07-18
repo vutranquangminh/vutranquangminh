@@ -66,7 +66,6 @@ Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
 
 ## 🏅 Certifications
 
-- [The AI Engineer Path](https://github.com/vutranquangminh/certificates)
 - [The Fullstack Developer Path](https://github.com/vutranquangminh/certificates)
 - [The Frontend Developer Career Path](https://github.com/vutranquangminh/certificates)
 - [Meta React Native Specialization](https://github.com/vutranquangminh/certificates)
