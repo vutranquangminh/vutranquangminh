@@ -71,7 +71,6 @@ Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
 - [Meta React Native Specialization](https://github.com/vutranquangminh/certificates)
 - [CS50’s Introduction to Computer Science](https://github.com/vutranquangminh/certificates)  
 - [CS50’s Introduction to Programming with Python](https://github.com/vutranquangminh/certificates)  
-- [CS50’s Introduction to Programming with Scratch](https://github.com/vutranquangminh/certificates)  
 - [CS50’s Web Programming with Python and JavaScript](https://github.com/vutranquangminh/certificates)  
 
 ---
