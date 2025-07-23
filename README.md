@@ -68,6 +68,7 @@ Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
 
 - [The Fullstack Developer Path](https://github.com/vutranquangminh/certificates)
 - [The Frontend Developer Career Path](https://github.com/vutranquangminh/certificates)
+- [Meta React Specialization](https://github.com/vutranquangminh/certificates)
 - [Meta React Native Specialization](https://github.com/vutranquangminh/certificates)
 - [CS50’s Introduction to Computer Science](https://github.com/vutranquangminh/certificates)  
 - [CS50’s Introduction to Programming with Python](https://github.com/vutranquangminh/certificates)  
