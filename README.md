@@ -6,10 +6,10 @@
 
 ## 💫 About Me
 
-I'm **Vũ Trần Quang Minh - William** – a passionate front-end developer with a growing skillset in back-end technologies, currently on my journey to become a **full-stack developer**.
+I'm Vũ Trần Quang Minh - William as a final-year BSc Computing student at the University of Greenwich, currently seeking an internship in front-end development to apply my skills and gain industry experience. Passionate about creating intuitive and user-focused web applications, I am dedicated to becoming a strong front-end professional. With a clear goal of growing into a full-stack developer in the future, I am eager to learn, contribute, and build impactful solutions as part of a dynamic team.
 
 - 🌱 Final-year BSc Computing student at **University of Greenwich**
-- 💡 Strong in front-end frameworks like **React**, **Vue**, **Next.js**
+- 💡 Strong in front-end frameworks like **React**, **React Native**, **Next.js**
 - ⚙️ Learning and practicing **back-end development** with **Node.js**, **Django**, and **FastAPI**
 - 💬 I enjoy building user-friendly UIs and robust APIs
 - 🤝 Open to internship opportunities in front-end / back-end roles
@@ -18,15 +18,17 @@ I'm **Vũ Trần Quang Minh - William** – a passionate front-end developer wit
 ---
 
 ## 🧠 Tech Stack
+**Programming Languages:**
+C · Python · HTML · CSS · JavaScript · TypeScript · SQL · NoSQL
 
 **Frontend:**  
-HTML5 · CSS3 · JavaScript · TypeScript · Bootstrap · Tailwind CSS · Vue · React · React Native · Next.js
+React · React Native · Next.js · Tailwind CSS
 
 **Backend:**  
-Flask · Django · FastAPI · Node.js · Express.js · Next.js · Firebase
+Flask · Django · FastAPI · Node.js · Express.js · Next.js
 
 **Database:**  
-MongoDB · MySQL · SQLite · SQL Server · Firestore (Firebase)
+MongoDB · MySQL · SQLite · SQL Server · Firebase
 
 **Tools:**  
 Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
