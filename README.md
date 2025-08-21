@@ -18,20 +18,11 @@ I'm Vũ Trần Quang Minh - William as a final-year BSc Computing student at the
 ---
 
 ## 🧠 Tech Stack
-**Programming Languages:**
-C · Python · HTML · CSS · JavaScript · TypeScript · SQL · NoSQL
-
-**Frontend:**  
-React · React Native · Next.js · Tailwind CSS
-
-**Backend:**  
-Flask · Django · FastAPI · Node.js · Express.js · Next.js
-
-**Database:**  
-MongoDB · MySQL · SQLite · SQL Server · Firebase
-
-**Tools:**  
-Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
+**Programming Languages:** C · Python · HTML · CSS · JavaScript · TypeScript · SQL · NoSQL
+**Frontend:** React · React Native · Next.js · Tailwind CSS
+**Backend:** Flask · Django · FastAPI · Node.js · Express.js · Next.js
+**Database:** MongoDB · MySQL · SQLite · SQL Server · Firebase
+**Tools:** Git · GitHub · Docker · Postman · Figma · Netlify · VS Code
 
 ---
 
