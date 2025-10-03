@@ -98,6 +98,8 @@ I'm Vũ Trần Quang Minh - William as a final-year BSc Computing student at the
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=vutranquangminh&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
+<img src="https://github.com/vutranquangminh/vutranquangminh/blob/output/github-contribution-grid-snake-dark.svg" alt="Contribution Calendar" />
+
 
 > “The best way to learn is to build.” – Let’s connect and build something meaningful together!
 
