@@ -1,6 +1,15 @@
-![](https://github.com/Yasmixe/Yasmixe/blob/main/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+world!+I+am+Vu+Tran+Quang+Minh)](https://git.io/typing-svg)
+<p align="center">
+  <img src="https://github.com/Yasmixe/Yasmixe/blob/main/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif" alt="Intro GIF" />
+</p>
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+world!+I+am+Vu+Tran+Quang+Minh" alt="Typing SVG" />
+  </a>
+</p>
+
 <h3 align="center">💻 Front-End Developer | 🚀 Future Full-Stack Engineer | 🎓 Final-Year BSc Computing Student</h3>
+
 
 ---
 
