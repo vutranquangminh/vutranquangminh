@@ -1,5 +1,5 @@
 ![](https://github.com/Yasmixe/Yasmixe/blob/main/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
-<h1 align="center">Hi there 👋, I'm Vũ Trần Quang Minh - William</h1>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+world!+I+am+Vu+Tran+Quang+Minh)](https://git.io/typing-svg)
 <h3 align="center">💻 Front-End Developer | 🚀 Future Full-Stack Engineer | 🎓 Final-Year BSc Computing Student</h3>
 
 ---
