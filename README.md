@@ -98,15 +98,8 @@ I'm Vũ Trần Quang Minh - William as a final-year BSc Computing student at the
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=vutranquangminh&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 <div align="center">
-  
-  <details open>
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=vutranquangminh&theme=tokyo-night&hide_border=true&area=true&custom_title=Last%2030%20Days%20Contributions" alt="Last 30 Days Contribution Graph" />
-  </details>
-
-  <!-- Contribution calendar -->
-  <details open>
-    <img src="https://github.com/vutranquangminh/vutranquangminh/blob/output/github-contribution-grid-snake-dark.svg" alt="Contribution Calendar" />
-  </details>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vutranquangminh&theme=tokyo-night&hide_border=true&area=true&custom_title=Last%2030%20Days%20Contributions" alt="Last 30 Days Contribution Graph" />
+  <img src="https://github.com/vutranquangminh/vutranquangminh/blob/output/github-contribution-grid-snake-dark.svg" alt="Contribution Calendar" />
 </div>
 
 ---
