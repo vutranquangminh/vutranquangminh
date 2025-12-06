@@ -19,7 +19,7 @@ I'm Vũ Trần Quang Minh - William as a final-year BSc Computing student at the
 
 - 🌱 Final-year BSc Computing student at **University of Greenwich**
 - 💡 Strong in front-end frameworks like **React**, **React Native**, **Next.js**
-- ⚙️ Learning and practicing **back-end development** with **Node.js**, **Django**, and **FastAPI**
+- ⚙️ Learning and practicing **back-end development** with **Node.js**, **Django**
 - 💬 I enjoy building user-friendly UIs and robust APIs
 - 🤝 Open to internship opportunities in front-end / back-end roles
 - 🔥 **Founder of Meowmentum Education** (Review Soon)
@@ -31,7 +31,7 @@ I'm Vũ Trần Quang Minh - William as a final-year BSc Computing student at the
 
 **Frontend:** React · React Native · Next.js · Tailwind CSS
 
-**Backend:** Flask · Django · FastAPI · Node.js · Express.js · Next.js
+**Backend:** Flask · Django · Node.js · Express.js · Next.js
 
 **Database:** MongoDB · MySQL · SQLite · SQL Server · Firebase
 
