@@ -25,20 +25,30 @@ I am **Vũ Trần Quang Minh**, a dedicated Full-Stack Developer and **First-Cla
 
 ## 💼 Professional Experience
 
-### **Full-Stack Developer** | [TMA Solutions](https://www.tmasolutions.com/)
-*Dec 2025 – Present*
-* **AI Communication Platform:** Developing interactive modules for real-time sign language translation using 3D avatar rendering.
-* **Technical Integration:** Implemented debounced video recording and RESTful APIs to transmit user gestures for AI validation.
+### **Fresher Full-Stack Developer** | OPILOT
+[cite_start]*Jan 2026 – Present* [cite: 16]
+* [cite_start]**System Architecture:** Engineered a scalable platform using Remix, TypeScript, and Prisma to manage 7 PostgreSQL schemas[cite: 19]. [cite_start]Built an event-driven Node.js backend using BullMQ and Redis for asynchronous task processing[cite: 19].
+* [cite_start]**AI Orchestration & Automation:** Developed an AI agent platform leveraging LangGraph and LangChain for multi-step script generation[cite: 20]. [cite_start]Architected social media scrapers bypassing anti-bot mechanisms with Puppeteer[cite: 21].
 
-### **Full-Stack Developer (Contract)** | [AIC Academy](https://aic.academy/)
-*Present*
-* **Web Solutions:** Developing and maintaining scalable full-stack web applications for the educational technology platform.
-* **System Performance:** Ensuring high availability and optimizing interface responsiveness for user-centric learning tools.
+### **Front-end Intern** | TMA Solution
+[cite_start]*Dec 2025 – Mar 2026* [cite: 23, 25]
+* [cite_start]**AI Communication Platform:** Built an interactive E-Learning module integrating real-time camera access and debounced video recording[cite: 26].
+* [cite_start]**Technical Integration:** Implemented RESTful APIs to transmit user gestures for AI validation and designed responsive interfaces for real-time feedback[cite: 26, 27].
 
 ### **Backend Developer (Intern)** | App Cyclone
-*Sep 2025 – Nov 2025*
-* **API Architecture:** Built scalable RESTful APIs following MVC and Clean Code principles.
-* **Stack focus:** Intensive development using Node.js, Express.js, and SQL.
+[cite_start]*Sep 2025 – Nov 2025* [cite: 28]
+* [cite_start]**Backend Architecture:** Intensive backend development training program[cite: 29].
+* [cite_start]**Stack focus:** Developed using Node.js, Express.js, and SQL[cite: 29].
+
+---
+
+## 🚀 Featured Project
+
+### **Full-Stack Developer** | [Decode Network](https://github.com/Decode-Labs-Web3)
+*Aug 2025 – Nov 2025*
+* **Web3 Ecosystem:** Engineered a high-performance, Discord-style UI for real-time messaging and video calling on a Web3 collaboration platform. 
+* **Security & Integration:** Implemented secure dual-login flows (Email + Web3 Wallet) via Next.js Middleware and integrated RESTful APIs for encrypted messaging.
+* **DevOps:** Automated CI/CD build and deployment pipelines using GitHub Actions and PM2.
 
 ---
 
