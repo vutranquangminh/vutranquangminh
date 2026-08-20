@@ -1,7 +1,7 @@
 <!-- Animated greeting -->
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+World!;I'm+Vũ Trần Quang Minh;Welcome+to+my+GitHub!&center=true&size=30&color=58a6ff">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+world!+I+am+Vu+Tran+Quang+Minh" alt="Typing SVG" />
   </a>
 </h1>
 
