@@ -11,7 +11,20 @@ const nextConfig: NextConfig = {
     return [{ source: "/portfolio", destination: "/", permanent: true }];
   },
   async headers() {
+    // Order matters: when several rules set the same header, the last match wins,
+    // so the private card's stricter rules come after the site-wide ones.
     return [
+      {
+        source: "/:path*",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "X-Frame-Options", value: "DENY" },
+          { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+        ],
+      },
+      { source: "/sw.js", headers: [{ key: "Cache-Control", value: "no-cache" }] },
+      { source: "/assets/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=86400" }] },
       {
         // Private contact card (secret path under /c/): never indexed, never leaks its URL via Referer,
         // never stored by shared caches.

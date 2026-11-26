@@ -120,7 +120,7 @@ npm run build && npm run start   # production build: needed for offline support 
 
 ## Deploy to Vercel
 
-`vercel.json` sets `"framework": "nextjs"`. Every push to `main` redeploys. Vercel blocks deployments of Next.js versions with known critical vulnerabilities (for example CVE-2025-66478), so keep `next` on the latest patch release: `npm install next@15.5 eslint-config-next@15.5`.
+`vercel.json` only sets `"framework": "nextjs"`; all response headers are in `next.config.ts` (site-wide first, the private card's stricter rules last so they win). Every push to `main` redeploys. Vercel blocks deployments of Next.js versions with known critical vulnerabilities (for example CVE-2025-66478), so keep `next` on the latest patch release: `npm install next@15.5 eslint-config-next@15.5`.
 
 ---
 
