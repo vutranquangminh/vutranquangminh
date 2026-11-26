@@ -1,13 +1,10 @@
 /*
  * Service worker: lets the page (and the payment QR codes) open with no signal after one visit.
  *
- * - Pages (the portfolio at / and the private card): network first (so edits show up right away), falling back to the
+ * - Pages (the portfolio at / and the card at /card): network first (so edits show up right away), falling back to the
  *   cached copy of that page after 3s or offline.
  * - Everything else, including Next.js chunks and fonts: served from cache instantly and refreshed
  *   in the background.
- *
- * The private card's address is never listed here: it is cached on a visitor's device only after they
- * open it (network-first pages are stored per path).
  *
  * Bump VERSION when you rename or remove files in PRECACHE.
  */

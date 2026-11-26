@@ -1,19 +1,13 @@
 import { notFound } from "next/navigation";
 import { profile } from "@/app/data/profile";
-import { cardPath, cardToken, getPrivateCard, isValidToken } from "@/lib/private-card";
+import { cardPath, getPrivateCard, hasPrivateCard } from "@/lib/private-card";
 
 export const dynamic = "force-static";
-export const dynamicParams = false;
-export function generateStaticParams() {
-  const token = cardToken();
-  return token ? [{ token }] : [];
-}
 
-/** Install-as-app manifest for the private card; lives under the secret path so it never reveals it. */
-export async function GET(_req: Request, { params }: { params: Promise<{ token: string }> }) {
-  const { token } = await params;
-  if (!isValidToken(token)) notFound();
-  const home = cardPath(token);
+/** Install-as-app manifest for the card ("William" on the home screen). */
+export async function GET() {
+  if (!hasPrivateCard()) notFound();
+  const home = cardPath();
   const manifest = {
     id: home,
     name: profile.name,

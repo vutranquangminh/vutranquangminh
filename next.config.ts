@@ -26,9 +26,9 @@ const nextConfig: NextConfig = {
       { source: "/sw.js", headers: [{ key: "Cache-Control", value: "no-cache" }] },
       { source: "/assets/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=86400" }] },
       {
-        // Private contact card (secret path under /c/): never indexed, never leaks its URL via Referer,
+        // Contact card (/card and its files): never indexed, never sends its URL via Referer,
         // never stored by shared caches.
-        source: "/c/:path*",
+        source: "/card/:path*",
         headers: [
           { key: "X-Robots-Tag", value: "noindex, nofollow, noarchive" },
           { key: "Referrer-Policy", value: "no-referrer" },

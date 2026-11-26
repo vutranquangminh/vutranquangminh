@@ -5,7 +5,7 @@ One Next.js 15 app, two pages:
 | Route | Page | Who sees it |
 | --- | --- | --- |
 | **`/`** | **Portfolio** (from the CV) | Public, indexable by search engines |
-| **`/c/<CARD_TOKEN>`** | **Private contact card**: save contact, call, Zalo/WhatsApp/Telegram, socials, emails, Vietcombank/MoMo QR | Only people you tap the NFC card for |
+| **`/card`** | **Contact card** (opened by the NFC card): save contact, call, Zalo/WhatsApp/Telegram, socials, emails, Vietcombank/MoMo QR | Anyone with the link; not indexed, not linked from the portfolio |
 
 `/portfolio` (the old address) redirects to `/`. The repo's `README.md` is the GitHub profile README and is not part of the site.
 
@@ -37,17 +37,14 @@ This repo is **public**, so nothing private may ever be committed.
 | Data | Where it lives |
 | --- | --- |
 | Name, title, phone, work email, LinkedIn, GitHub, social handles, CV, portfolio text | In the repo (it is on the CV and the portfolio anyway) |
-| **Card link token**, **birthday**, **company / university / personal emails**, **Zalo and WhatsApp links**, **bank and MoMo accounts and their QR payloads** | **Only** in the `CARD_TOKEN` and `CARD_DATA` environment variables (Vercel, and `.env.local` on your machine) |
+| **Birthday**, **company / university / personal emails**, **Zalo and WhatsApp links**, **bank and MoMo accounts and their QR payloads** | **Only** in the `CARD_DATA` environment variable (Vercel, and `.env.local` on your machine) |
 
-How the card stays private:
+How the card's data stays private:
 
-- **Unguessable link:** the card is prerendered at build time for exactly one path, `/c/<CARD_TOKEN>` (16 random letters and digits, about 95 bits). Any other `/c/…` is a 404. Nothing on the site, in the repo, in `robots.txt`, the sitemap or the service worker mentions the token.
-- **Generated, not stored:** the QR codes (inline SVG), the vCard (`contact.vcf`), the install manifest, the widget QR images and the filled-in widget script are all generated at build time from `CARD_DATA`, and only exist under the secret path.
+- **Generated, not stored:** the QR codes (inline SVG), the vCard (`contact.vcf`), the install manifest, the widget QR images and the filled-in widget script are all generated at build time from `CARD_DATA`, and only exist under `/card`.
 - **Server-only:** `lib/private-card.ts` imports `server-only`, so private data can never be bundled into client JavaScript.
 - **No leaking:** the card sends `Referrer-Policy: no-referrer` and every external link has `rel="noreferrer"`, so sites you open from the card (Zalo, Facebook…) never see its URL. It also sends `X-Robots-Tag: noindex, nofollow, noarchive` and `Cache-Control: private`.
-- **No links to it:** the portfolio and README never link to the card. The card links to the portfolio, not the other way round.
-
-**If the link leaks:** set a new `CARD_TOKEN` in Vercel, redeploy, write the new link to the NFC card, and re-copy the widget script. The old link becomes a 404.
+- **Not advertised:** the portfolio and README never link to `/card`, and it is not in the sitemap. It is not secret, though: anyone who has or guesses the address can open it. That's fine for a contact card you hand out by tapping.
 
 **Rules for contributors (including future you):** never commit `.env*` files (git ignores them). Never hard-code an account number, private email or QR payload. Put new private fields in `CARD_DATA` and the `PrivateCard` type.
 
@@ -68,7 +65,7 @@ app/
 ├── components/
 │   ├── PlatinumCard.tsx       # The card artwork (shared); date slot is a prop
 │   └── card/                  # Card page client parts (dialogs, tabs, save contact) + Zalo icon
-└── c/[token]/                 # PRIVATE card, prerendered for CARD_TOKEN only
+└── card/                      # Contact card (/card), prerendered from CARD_DATA
     ├── page.tsx
     ├── contact.vcf/route.ts
     ├── manifest.webmanifest/route.ts
@@ -79,7 +76,7 @@ components/
 ├── portfolio/                 # Portfolio sections (server components; Navbar is client)
 └── copy-button.tsx            # Copy + toast (sonner)
 lib/
-├── private-card.ts            # Reads CARD_TOKEN / CARD_DATA (server-only)
+├── private-card.ts            # Reads CARD_DATA (server-only)
 ├── qr.ts                      # QR as SVG (page) or PNG (widget)
 ├── vcard.ts                   # vCard 3.0 builder
 ├── utils.ts                   # cn()
@@ -87,7 +84,7 @@ lib/
 public/                        # Public files only: avatar, logos, icons, og.png, widget artwork, sw.js, CV
 scripts/make_images.py         # Regenerates icons, og.png, widget artwork, README banner (no QR codes)
 docs/SITE.md, docs/readme/banner.png
-.env.example                   # Shape of CARD_TOKEN / CARD_DATA, with placeholders
+.env.example                   # Shape of CARD_DATA, with placeholders (CARD_TOKEN there is no longer used)
 ```
 
 ---
@@ -96,15 +93,13 @@ docs/SITE.md, docs/readme/banner.png
 
 | Name | Value |
 | --- | --- |
-| `CARD_TOKEN` | 16+ random letters/digits. The card lives at `/c/<CARD_TOKEN>`. |
 | `CARD_DATA` | One line of JSON, shaped like `.env.example`: `birthday`, `zalo {url, qrPayload}`, `whatsapp`, `emails[]`, `payments[]`. |
 
 - **Locally:** `.env.local` (copy `.env.example`; git ignores it).
 - **Vercel:** Settings → Environment Variables, for **Production** and **Preview**. They are read at **build time**, so **redeploy** after changing them.
 - **QR payload:** the raw text inside a bank or Zalo QR code. Decode the app's QR image with any scanner app. VietQR payloads start with `000201`.
-- **New token:** `node -e "console.log(require('crypto').randomBytes(12).toString('base64url'))"`.
 
-Without these variables the site still builds and the portfolio works; the card route simply has no pages.
+Without `CARD_DATA` the site still builds and the portfolio works; `/card` is a 404.
 
 ---
 
@@ -112,7 +107,7 @@ Without these variables the site still builds and the portfolio works; the card 
 
 ```bash
 npm ci
-npm run dev          # http://localhost:3000 (portfolio); the card is at /c/<CARD_TOKEN from .env.local>
+npm run dev          # http://localhost:3000 (portfolio) and http://localhost:3000/card
 npm run build && npm run start   # production build: needed for offline support and analytics
 ```
 
@@ -126,7 +121,7 @@ npm run build && npm run start   # production build: needed for offline support 
 
 ## Write the URL to the NFC card
 
-NFC Tools (iOS/Android) → **Write → Add a record → URL** → `https://vutranquangminh.vercel.app/c/<CARD_TOKEN>` → **Write**, then hold an **NTAG213/215/216** card to the phone. Don't lock the tag until you are sure the link is final.
+NFC Tools (iOS/Android) → **Write → Add a record → URL** → `https://vutranquangminh.vercel.app/card` → **Write**, then hold an **NTAG213/215/216** card to the phone. Don't lock the tag until you are sure the link is final.
 
 ---
 
@@ -138,7 +133,7 @@ NFC Tools (iOS/Android) → **Write → Add a record → URL** → `https://vutr
 | Public social rows on the card | `app/data/card.ts` |
 | Private card data (emails, accounts, QR, birthday, Zalo/WhatsApp) | `CARD_DATA` env var, then redeploy |
 | Card artwork | `app/components/PlatinumCard.tsx` |
-| Card page layout | `app/c/[token]/page.tsx` (+ `app/components/card/interactive.tsx`) |
+| Card page layout | `app/card/page.tsx` (+ `app/components/card/interactive.tsx`) |
 | Colors and fonts | `app/globals.css` (`:root` and `@theme inline`), `app/fonts.ts` |
 | Photo | `public/assets/avatar.jpg` (640×640), then `uv run --with pillow python scripts/make_images.py` |
 | CV | `public/VuTranQuangMinh_CV.pdf` |
@@ -151,11 +146,11 @@ NFC Tools (iOS/Android) → **Write → Add a record → URL** → `https://vutr
 
 The free **[Scriptable](https://apps.apple.com/app/scriptable/id1405459188)** app shows the Vietcombank QR on Vietcombank-style artwork (small / medium / large).
 
-1. On the iPhone, open `https://vutranquangminh.vercel.app/c/<CARD_TOKEN>/widget.js`, select all and copy.
+1. On the iPhone, open `https://vutranquangminh.vercel.app/card/widget.js`, select all and copy.
 2. Scriptable → **+** → paste → name it `Vietcombank QR` → **▶︎ Run** once online.
 3. Home screen → long-press → **Edit → Add Widget → Scriptable → Large** → Edit Widget → Script: `Vietcombank QR`, When Interacting: `Open URL`.
 
-The served script already contains your card link and account. The template in the repo (`lib/widget/`) only has placeholders. The QR images come from your card link (`/widget/qr-*.png`, whole-pixel modules at 3× with a full quiet zone, so they draw 1:1 and scan). The background and logo come from the public repo on GitHub. Everything is cached on the phone. Tapping the widget opens the card's payment QR (`?pay=vcb`).
+The served script already contains the card link and your account. The template in the repo (`lib/widget/`) only has placeholders. The QR images come from `/card/widget/qr-*.png` ( whole-pixel modules at 3× with a full quiet zone, so they draw 1:1 and scan). The background and logo come from the public repo on GitHub. Everything is cached on the phone. Tapping the widget opens the card's payment QR (`?pay=vcb`).
 
 If the QR won't scan: use the **Large** size, run the script once, and make sure the home screen style isn't **Tinted** or **Clear** (long-press → Edit → Customize), because those recolour widgets.
 
@@ -182,9 +177,9 @@ Dark only. The "platinum card" look: near-black page, graphite panels, brushed-s
 ## Test checklist
 
 - [ ] `npm run build` passes (types and lint).
-- [ ] `/c/<token>`: Save contact (iPhone opens it; Android shows the guide), Call, Zalo QR, Payment tabs, copy toasts, `?pay=momo`.
-- [ ] `/c/wrong-token` is a 404. `/contact.vcf` and `/assets/qr/*` are 404.
-- [ ] The portfolio HTML and `.next/static` contain no token, account number, birthday or private email.
+- [ ] `/card`: Save contact (iPhone opens it; Android shows the guide), Call, Zalo QR, Payment tabs, copy toasts, `?pay=momo`.
+- [ ] `/contact.vcf` and `/assets/qr/*` are 404 (the card's files only exist under `/card/`).
+- [ ] The portfolio HTML and `.next/static` contain no account number, birthday or private email.
 - [ ] QR codes scan with a banking app.
 - [ ] After deploying: tap the NFC card with an iPhone and an Android phone.
 
@@ -194,7 +189,7 @@ Dark only. The "platinum card" look: near-black page, graphite panels, brushed-s
 
 | Problem | Fix |
 | --- | --- |
-| Card link is a 404 after deploying | `CARD_TOKEN` / `CARD_DATA` missing or invalid in Vercel (Production). Add them and redeploy. |
+| `/card` is a 404 after deploying | `CARD_DATA` missing or invalid in Vercel (Production). Add it and redeploy. |
 | Vercel says "Vulnerable version of Next.js detected" | Update `next` to the latest patch and push. |
 | Widget QR won't scan / old image | Re-copy `…/widget.js`, run it once, use Large, home screen style Default or Dark. |
 | Old version after deploying | Reload twice (the service worker refreshes in the background). |

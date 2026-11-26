@@ -1,14 +1,11 @@
 import "server-only";
 
 /**
- * Private contact-card data. Never committed: it comes from environment variables
- * (Vercel → Settings → Environment Variables; locally .env.local, which git ignores).
+ * Private contact-card data for /card. Never committed (this repo is public): it comes from the
+ * CARD_DATA environment variable (Vercel → Settings → Environment Variables; locally .env.local,
+ * which git ignores). JSON matching PrivateCard below; see .env.example.
  *
- *   CARD_TOKEN  secret path segment: the card lives at /c/<CARD_TOKEN>
- *   CARD_DATA   JSON matching PrivateCard below (see .env.example)
- *
- * Pages and files under /c/[token] are prerendered at build time for that one token only;
- * any other token is a 404.
+ * The card and its files are prerendered at build time. Without CARD_DATA, /card is a 404.
  */
 
 export type PrivateEmail = {
@@ -40,14 +37,10 @@ export type PrivateCard = {
   payments: PaymentAccount[];
 };
 
-export function cardToken(): string | null {
-  const token = process.env.CARD_TOKEN?.trim();
-  return token && /^[A-Za-z0-9_-]{12,}$/.test(token) ? token : null;
-}
+export const CARD_PATH = "/card";
 
-export function isValidToken(token: string): boolean {
-  const expected = cardToken();
-  return expected !== null && token === expected;
+export function hasPrivateCard(): boolean {
+  return Boolean(process.env.CARD_DATA?.trim());
 }
 
 let cached: PrivateCard | null = null;
@@ -70,6 +63,6 @@ export function displayDate(isoDate: string): string {
   return `${d}/${m}/${y}`;
 }
 
-export function cardPath(token: string, file = ""): string {
-  return `/c/${token}${file ? `/${file}` : ""}`;
+export function cardPath(file = ""): string {
+  return file ? `${CARD_PATH}/${file}` : CARD_PATH;
 }

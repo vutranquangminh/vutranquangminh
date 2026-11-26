@@ -23,37 +23,28 @@ import { profile } from "@/app/data/profile";
 import { socialLinks, type SocialIcon } from "@/app/data/card";
 import { Button } from "@/components/ui/button";
 import { CopyButton } from "@/components/copy-button";
-import { cardPath, cardToken, displayDate, getPrivateCard, isValidToken } from "@/lib/private-card";
+import { cardPath, displayDate, getPrivateCard, hasPrivateCard } from "@/lib/private-card";
 import { qrSvg } from "@/lib/qr";
 
-// Prerender the card for the one secret token; every other /c/<anything> is a 404.
-export const dynamicParams = false;
-export function generateStaticParams() {
-  const token = cardToken();
-  return token ? [{ token }] : [];
-}
+// Prerendered at build time from CARD_DATA; a 404 when it is not set.
+export const dynamic = "force-static";
 
-type Params = { params: Promise<{ token: string }> };
-
-export async function generateMetadata({ params }: Params): Promise<Metadata> {
-  const { token } = await params;
-  return {
-    title: profile.name,
-    description: `${profile.name} (${profile.nickname}) · Software Developer at NewEra Inc`,
-    // Private page: never indexed, and never leaks its URL to sites it links to.
-    robots: { index: false, follow: false, nocache: true },
-    referrer: "no-referrer",
-    alternates: { canonical: null },
-    openGraph: {
-      title: `${profile.name} (${profile.nickname})`,
-      description: "Software Developer @ NewEra Inc · tap to connect",
-      url: cardPath(token),
-      images: [{ url: "/assets/og.png", width: 1200, height: 630 }],
-    },
-    manifest: cardPath(token, "manifest.webmanifest"),
-    appleWebApp: { capable: true, title: profile.nickname, statusBarStyle: "black-translucent" },
-  };
-}
+export const metadata: Metadata = {
+  title: profile.name,
+  description: `${profile.name} (${profile.nickname}) · Software Developer at NewEra Inc`,
+  // Personal page: never indexed, and never sends its URL to the sites it links to.
+  robots: { index: false, follow: false, nocache: true },
+  referrer: "no-referrer",
+  alternates: { canonical: null },
+  openGraph: {
+    title: `${profile.name} (${profile.nickname})`,
+    description: "Software Developer @ NewEra Inc · tap to connect",
+    url: cardPath(),
+    images: [{ url: "/assets/og.png", width: 1200, height: 630 }],
+  },
+  manifest: cardPath("manifest.webmanifest"),
+  appleWebApp: { capable: true, title: profile.nickname, statusBarStyle: "black-translucent" },
+};
 
 const BRAND: Record<SocialIcon, React.ComponentType<{ className?: string; weight?: "fill" | "regular" }>> = {
   github: GithubLogoIcon,
@@ -129,9 +120,8 @@ function Group({ title, children }: { title: string; children: React.ReactNode }
 
 /* ------------------------------------------------------------------ page */
 
-export default async function ContactCardPage({ params }: Params) {
-  const { token } = await params;
-  if (!isValidToken(token)) notFound();
+export default async function ContactCardPage() {
+  if (!hasPrivateCard()) notFound();
 
   const card = getPrivateCard();
   const [zaloQr, ...payQrs] = await Promise.all([qrSvg(card.zalo.qrPayload), ...card.payments.map((p) => qrSvg(p.qrPayload))]);
@@ -146,7 +136,7 @@ export default async function ContactCardPage({ params }: Params) {
     logoFill: p.key === "momo",
     qrSvg: payQrs[i],
   }));
-  const vcf = cardPath(token, "contact.vcf");
+  const vcf = cardPath("contact.vcf");
 
   return (
     <PayProvider accounts={accounts}>
