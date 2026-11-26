@@ -11,7 +11,7 @@
  *
  * Bump VERSION when you rename or remove files in PRECACHE.
  */
-const VERSION = 'v5';
+const VERSION = 'v6'; // v6: drop caches poisoned by the ignoreSearch image bug
 const CACHE = `nfc-card-${VERSION}`;
 const PRECACHE = [
   '/',
@@ -56,7 +56,9 @@ async function pageResponse(request) {
 
 async function assetResponse(request, event) {
   const cache = await caches.open(CACHE);
-  const cached = await cache.match(request, { ignoreSearch: true });
+  // Exact match, query string included: Next.js serves every image from /_next/image?url=…&w=…,
+  // so ignoring the query would hand back the same cached image for all of them.
+  const cached = await cache.match(request);
   const refresh = fetch(request)
     .then((response) => {
       if (response.ok) cache.put(request, response.clone());
