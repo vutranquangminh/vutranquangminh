@@ -1,0 +1,5 @@
+# Not part of the website: keep docs and tooling out of the Vercel deployment.
+README.md
+docs/
+scripts/
+.gitignore
