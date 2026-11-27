@@ -5,6 +5,7 @@
 [![Typing introduction](https://readme-typing-svg.demolab.com?font=Montserrat&weight=300&size=19&duration=2800&pause=900&color=D6D6DB&center=true&vCenter=true&repeat=true&width=780&lines=Architecting+secure+%26+high-concurrency+distributed+systems;Building+production+multi-LLM+%26+RAG+pipelines;Engineering+seamless+edge-to-cloud+experiences)](https://github.com/vutranquangminh)
 
 <p>
+  <a href="https://vutranquangminh.vercel.app"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-vutranquangminh.vercel.app-1B1B1E?style=for-the-badge&labelColor=2A2A2D&logo=vercel&logoColor=E6E6E9"></a>
   <a href="mailto:vutranquangminh.dev@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-vutranquangminh.dev%40gmail.com-1B1B1E?style=for-the-badge&labelColor=2A2A2D&logo=gmail&logoColor=E6E6E9"></a>
   <a href="https://www.linkedin.com/in/vutranquangminh"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-1B1B1E?style=for-the-badge&labelColor=2A2A2D&logo=linkedin&logoColor=E6E6E9"></a>
   <img alt="Profile views" src="https://komarev.com/ghpvc/?username=vutranquangminh&style=for-the-badge&color=1b1b1e&label=PROFILE+VIEWS">
@@ -85,7 +86,7 @@ flowchart LR
 
 ## PUBLICATIONS
 
-**VALF: A CLA-based Reinforcement Learning Framework for Vietnamese Language Learning in Dyslexic Children**  
+**[VALF: A CLA-based Reinforcement Learning Framework for Vietnamese Language Learning in Dyslexic Children](https://www.ijcaonline.org/archives/volume187/number29/valf-a-cla-based-reinforcement-learning-framework-for-vietnamese-language-learning-in-dyslexic-children/)**  
 <sub>INTERNATIONAL JOURNAL OF COMPUTER APPLICATIONS (IJCA) &nbsp;·&nbsp; PUBLISHED AUG 20, 2025</sub>
 
 ## EDUCATION
@@ -101,7 +102,7 @@ flowchart LR
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vutranquangminh/vutranquangminh/output/github-contribution-grid-snake-dark.svg">
-  <img alt="Animated snake moving across the contribution grid" src="https://raw.githubusercontent.com/vutranquangminh/vutranquangminh/output/github-contribution-grid-snake-dark.svg">
+  <img alt="Animated snake moving across the contribution grid" src="https://raw.githubusercontent.com/vutranquangminh/vutranquangminh/output/github-contribution-grid-snake.svg">
 </picture>
 
 <br><br>
