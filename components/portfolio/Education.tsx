@@ -63,14 +63,23 @@ export default function Education() {
                 </span>
               );
               return (
-                <li key={c.name} className="py-3.5 first:pt-0 last:pb-0">
-                  {c.url ? (
-                    <a href={c.url} target="_blank" rel="noopener" className="group flex items-center justify-between gap-4">
+                <li key={c.name} className="flex items-center gap-3 py-3.5 first:pt-0 last:pb-0">
+                  {/* The name opens the issuer's verification page (arrow), or the PDF when there is none. */}
+                  {c.url || c.pdf ? (
+                    <a href={c.url ?? c.pdf} target="_blank" rel="noopener" className="group flex min-w-0 flex-1 items-center justify-between gap-4">
                       {body}
-                      <ArrowUpRightIcon aria-hidden className="size-4 shrink-0 text-muted-foreground group-hover:text-foreground" />
+                      {c.url && <ArrowUpRightIcon aria-hidden className="size-4 shrink-0 text-muted-foreground group-hover:text-foreground" />}
                     </a>
                   ) : (
                     body
+                  )}
+                  {/* Our copy of the certificate, always in the last column. */}
+                  {c.pdf && (
+                    <Badge asChild variant="outline" className="h-6 border-line px-2.5 text-muted-foreground hover:text-foreground">
+                      <a href={c.pdf} target="_blank" rel="noopener" aria-label={`${c.name}: certificate PDF`}>
+                        PDF
+                      </a>
+                    </Badge>
                   )}
                 </li>
               );
