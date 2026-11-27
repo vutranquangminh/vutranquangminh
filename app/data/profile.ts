@@ -215,16 +215,23 @@ export const activities = [
 ];
 
 /**
- * `url` is the issuer's own verification page (shown with an arrow), `pdf` our copy of the certificate in
- * public/certificates (moved here from the old vutranquangminh/certificates repo).
+ * `url` is the issuer's own verification page, `pdf` our copy of the certificate and `preview` an image of
+ * it (rendered from the PDF with pdftoppm) shown in a dialog on the site. Files live in public/certificates
+ * (moved here from the old vutranquangminh/certificates repo).
  */
-export const certifications: { issuer: string; name: string; url?: string; pdf?: string }[] = [
-  { issuer: "NVIDIA", name: "Applications of AI for Predictive Maintenance", url: "https://learn.nvidia.com/certificates?id=Ja2lXYWdTwOxx3yOpa8gCg", pdf: "/certificates/nvidia-ai-predictive-maintenance.pdf" },
-  { issuer: "Scrimba", name: "The AI Engineer Path", pdf: "/certificates/scrimba-ai-engineer-path.pdf" },
-  { issuer: "Scrimba", name: "The Frontend Developer Career Path", url: "https://scrimba.com/certificate-cert2uNjfKA1wzC5vMhXwTNUv82WkFooUCNJBx4", pdf: "/certificates/scrimba-frontend-developer-career-path.pdf" },
-  { issuer: "Scrimba", name: "The Fullstack Developer Path", url: "https://scrimba.com/certificate-cert2ffemzs7ogVG88UA72dkkSJY6RLsxVtBAxgp8kmTXuG6Xa", pdf: "/certificates/scrimba-fullstack-developer-path.pdf" },
-  { issuer: "HarvardX", name: "CS50's Introduction to Computer Science", url: "https://certificates.cs50.io/3de313c8-69b9-4c5b-af59-1949006626d1.png?size=letter", pdf: "/certificates/cs50x-computer-science.pdf" },
-  { issuer: "HarvardX", name: "CS50's Introduction to Programming with Python", url: "https://certificates.cs50.io/e97c9ca6-07a1-4739-aea0-6ebadcb7edea.png?size=letter", pdf: "/certificates/cs50-python.pdf" },
-  { issuer: "HarvardX", name: "CS50's Introduction to Programming with Scratch", pdf: "/certificates/cs50-scratch.pdf" },
+export const certifications: {
+  issuer: string;
+  name: string;
+  url?: string;
+  pdf?: string;
+  preview?: { src: string; width: number; height: number };
+}[] = [
+  { issuer: "NVIDIA", name: "Applications of AI for Predictive Maintenance", url: "https://learn.nvidia.com/certificates?id=Ja2lXYWdTwOxx3yOpa8gCg", pdf: "/certificates/nvidia-ai-predictive-maintenance.pdf", preview: { src: "/certificates/nvidia-ai-predictive-maintenance.webp", width: 1600, height: 1131 } },
+  { issuer: "Scrimba", name: "The AI Engineer Path", pdf: "/certificates/scrimba-ai-engineer-path.pdf", preview: { src: "/certificates/scrimba-ai-engineer-path.webp", width: 1600, height: 1132 } },
+  { issuer: "Scrimba", name: "The Frontend Developer Career Path", url: "https://scrimba.com/certificate-cert2uNjfKA1wzC5vMhXwTNUv82WkFooUCNJBx4", pdf: "/certificates/scrimba-frontend-developer-career-path.pdf", preview: { src: "/certificates/scrimba-frontend-developer-career-path.webp", width: 1600, height: 1132 } },
+  { issuer: "Scrimba", name: "The Fullstack Developer Path", url: "https://scrimba.com/certificate-cert2ffemzs7ogVG88UA72dkkSJY6RLsxVtBAxgp8kmTXuG6Xa", pdf: "/certificates/scrimba-fullstack-developer-path.pdf", preview: { src: "/certificates/scrimba-fullstack-developer-path.webp", width: 1600, height: 1131 } },
+  { issuer: "HarvardX", name: "CS50's Introduction to Computer Science", url: "https://certificates.cs50.io/3de313c8-69b9-4c5b-af59-1949006626d1.png?size=letter", pdf: "/certificates/cs50x-computer-science.pdf", preview: { src: "/certificates/cs50x-computer-science.webp", width: 1600, height: 1237 } },
+  { issuer: "HarvardX", name: "CS50's Introduction to Programming with Python", url: "https://certificates.cs50.io/e97c9ca6-07a1-4739-aea0-6ebadcb7edea.png?size=letter", pdf: "/certificates/cs50-python.pdf", preview: { src: "/certificates/cs50-python.webp", width: 1600, height: 1237 } },
+  { issuer: "HarvardX", name: "CS50's Introduction to Programming with Scratch", pdf: "/certificates/cs50-scratch.pdf", preview: { src: "/certificates/cs50-scratch.webp", width: 1600, height: 1237 } },
   { issuer: "English", name: "Professional working proficiency · VSTEP B2 (6.0)" },
 ];
